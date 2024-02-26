@@ -4,7 +4,7 @@ const number = Number(prompt('write a number'));
 
 
 /*
-for (let i = 0; i <= number; i++) {
+for (let i = 0; i < number; i++) {
 
     console.log(i**3);
 
@@ -13,7 +13,7 @@ for (let i = 0; i <= number; i++) {
 
 let i = 0;
 
-while (i <= number) {
+while (i < number) {
 
     console.log(i ** 3);
 
