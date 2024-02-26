@@ -6,14 +6,17 @@ for (let i = 0; i < 6; i++) {
     
     const number = Number(prompt('write a number'));
     
-    if (number % 2 === 1) {
+    /*if (number % 2 === 1) {
 
         numbersList.push(number);
-    };
+    };*/
+
+    number % 2 === 1 ? numbersList.push(number) : ''
 
     console.log(numbersList);
 
 };
+
 
 
 
@@ -29,6 +32,8 @@ while (i < 6) {
 
         numbersList.push(number);
     };
+
+    //number % 2 === 1 ? numbersList.push(number) : ''
     
     console.log(numbersList);
     
