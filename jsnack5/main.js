@@ -13,10 +13,10 @@ for (let i = 0; i < 6; i++) {
 
     number % 2 === 1 ? numbersList.push(number) : ''
 
-    console.log(numbersList);
-
+    
 };
 
+console.log(numbersList);
 
 
 
